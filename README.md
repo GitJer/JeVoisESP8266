@@ -46,7 +46,7 @@ And edit 'platform.ini' to change:
 --auth="passwd"
 ```
 
-#Usage (on linux)
+# Usage (on linux)
 - Start the Camera and ESP8266 by connecting them to USB chargers. The ESP8266 flashes its built-in LED while it is not connected to the wifi network.
 - In a terminal, start the script to read the serial data: 'python getData.py'
 - Edit the script 'sendCommands.py' to send the right commands to make the camera do what you need, then, in another terminal, start it with 'python sendCommands.py'. In the current file it starts the 'DemoArUco' demo.
