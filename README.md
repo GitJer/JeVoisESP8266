@@ -53,3 +53,10 @@ And edit 'platform.ini' to change:
 - Edit the script 'sendCommands.py' to send the right commands to make the camera do what you need, then, in another terminal, start it with 'python sendCommands.py'. In the current file it starts the 'DemoArUco' demo.
 
 In the terminal where you started 'getData.py' you should now see the serial output of 'DemoArUco' as well as the camera's response to the commands. I noticed that I sometimes receive errors from the camera, just start the 'sendCommands.py' script again.
+
+You can also use a browser and enter for example the following urls:
+```
+http://192.168.1.115/set?cmd=info
+http://192.168.1.115/set?cmd=setpar serstyle Detail
+```
+Note that the spaces between the command and its parameters will be replaced by '%20'. Again, the output shows up in the terminal.
