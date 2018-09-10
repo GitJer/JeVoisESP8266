@@ -4,7 +4,7 @@ This project adds wireless serial communication to the [JeVois Smart Machine vis
 
 It consists of an ESP8266, in my case a WEMOS d1 mini, connected to the JeVois camera as shown below:
 
-![Serial connections](./serial_connections.png = 150x150)
+![](serial_connections.png)
 
 # Configuration
 This project uses [PlatformIO](https://platformio.org/), but it should be easy to use e.g. the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
