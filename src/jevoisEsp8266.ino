@@ -34,7 +34,7 @@ char* ssid = "YOUR SSID";
 char* password = "YOUR PASSWORD";
 
 void setup() {
-  // the data from the meter comes in via the serial Rx pin
+  // Communication with the camera is via serial
   Serial.begin(115200); //Turn on Serial Port
   delay(1000);
 
